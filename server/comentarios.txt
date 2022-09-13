@@ -1,0 +1,21 @@
+para inicia um projeto node:
+1-na pasta do projeto brack end -> npm init -y "Vai criar um package.json
+2-instalação de depencias/modulos node_modules -> npm install express
+3- criodo a pasta src e arquivo
+4- Packege.json modar o caminho do main.
+5 -Packege.json incluir "type": "commonjs", e mudar o server 
+para .mjs.
+6- npm i typescript
+7 - npm i typescript -D = desenvolvimento
+8 - mudar o server.mts para .ts pois vai trabalhar o typescript
+em que tem que configurar para aceita o typescript no package.json
+->"build": "tsc"
+->npx tsc --init para executar o tsc -> criar um arquivo de configuração
+-> npm run build cria um arquivo .ts
+-> tsconfig - mudar pra isso "module": "ES2020"
+-> tsconfig descomentar e cadastra =  "rootDir": "./src",  "outDir": "./build",
+-> npm install @types/express -D resolver o erro da dependencia ts.
+"commonjs"
+-> npm i ts-node-dev -D = ferramento para atualizar js dinamicamente crio "dev": "tsnd src/server.ts".
+lebrente: quando gera o erro de npm run dev -> tera que excluir
+package.json a linha onde tem 'module' e volta no tsconfig 'CommonJS'.

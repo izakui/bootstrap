@@ -1,0 +1,17 @@
+Criação do react
+*https://vitejs.dev/guide/
+npm create vite@latest
+-> npm install = instalação de depencias para node.
+
+npm run dev -> iniciar projeto
+
+
+...................................................................................................
+Instalação para o mobile
+npx create-expo-app --template 
+
+
+
+
+
+level open desafio.
